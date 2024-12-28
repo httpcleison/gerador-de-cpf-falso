@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #6ad667, #bdcc6b);
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gerador{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.329);
+    border-radius: 12px;
+}
+
+.gerador div .textGerador{
+    font-size: 1.5rem;
+    position: relative;
+    top: -90px;
+    left: 25px;
+    color: antiquewhite;
+}
+
+.gerador img{
+    width: 300px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.gerador .botoes{
+    display: flex;
+}
+
+.gerador .botoes button{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+}
+
+.gerador .botoes button:nth-child(2){
+    margin-left: 5px;
+}
+
+.gerador .botoes button:active{
+    opacity: 50%;
+}
